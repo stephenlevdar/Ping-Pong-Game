@@ -25,11 +25,11 @@ speed_x = 3
 speed_y = 3
 
 mixer.init()
-mixer.music.load("Flat lay of ping pong paddles with ball _ Free Photo_files\8-bit-background-music-for-arcade-game-come-on-mario-164702(1).mp3")
+mixer.music.load("8-bit-background-music-for-arcade-game-come-on-mario-164702(1).mp3")
 mixer.music.play(-1)
 mixer.music.set_volume(0.4)
 
-hit_sound = mixer.Sound("Flat lay of ping pong paddles with ball _ Free Photo_files\cinematic-hit-159487.mp3")
+hit_sound = mixer.Sound("cinematic-hit-159487.mp3")
 
 def reset_ball():
     ball.rect.x = 200
@@ -127,3 +127,4 @@ while game:
 
     display.update()
     clock.tick(FPS)
+
